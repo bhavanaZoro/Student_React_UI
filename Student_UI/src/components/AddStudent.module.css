@@ -1,0 +1,53 @@
+.studentFormholder{
+    height: 100vh;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.form{
+    width: 350px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: #fff;
+}
+.form1{
+    width: 400px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: #fff;
+}
+.h2{
+    font-size: x-large;
+    margin-bottom: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.studentformitems>label{
+    display: block;
+    color: #555;
+    font-size: 14px;
+}
+.studentformitems{
+    padding: 10px 20px;
+}
+.studentformitems input{
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.submit{
+    width: 100%;
+    padding: 10px;
+    background-color: #747264;
+        color: white;
+    border-radius: 5px;
+    border: none;
+    transition: 0.2s ease;
+}
